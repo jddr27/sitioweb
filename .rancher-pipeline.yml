@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: czdev/miws
+      tag: jdgk27/proyecto2
       pushRemote: true
       registry: index.docker.io
 - name: Crear en k8s
